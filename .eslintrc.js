@@ -10,5 +10,8 @@ module.exports = {
     "quotes": [2, "double"],
     "no-var": 1,
     "indent": [2, 2]
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
