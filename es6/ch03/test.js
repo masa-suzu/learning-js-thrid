@@ -61,14 +61,14 @@ describe("\"x + 1 - 1 = x\"", ()=>{
 });
 
 describe("Template literal is added", ()=>{
-  it("\`${one} = 1\` stands for \"1 = 1\" if one is \"1\"", ()=>{
+  it("\`${one} = 1\`", ()=>{
     let one = "1";
     `${one} = 1`.should.equal("1 = 1");
   });
 });
 
 describe("Symbol is added", ()=>{
-  it("any symbol is unique ", ()=>{
+  it("let x = Symbol();", ()=>{
     let x = Symbol();
     let y = Symbol();
     
