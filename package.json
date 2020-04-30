@@ -20,7 +20,7 @@
         "test": "npm-run-all lint mocha"
     },
     "dependencies": {
-        "jquery": "^3.4.0",
+        "jquery": "^3.5.0",
         "paper": "^0.10.2"
     }
 }
